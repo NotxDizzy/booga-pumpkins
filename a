@@ -1,0 +1,9 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Dizzy Hub", "Ocean")
+--esp
+local Tab = Window:NewTab("ESP")
+local Section = Tab:NewSection("Pumpkin esp (Event)")
+Section:NewButton("Pumpkin esp", "Find Event pumpkins", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NotxDizzy/booga-pumpkins/main/boogapumkin%22,true"))()
+end)
+
