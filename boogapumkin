@@ -1,0 +1,10 @@
+local pumpkins = game.Workspace.pumpkins
+local gots = pumpkins:GetChildren()
+
+while wait(2) do
+    for _, got in ipairs(gots) do
+        local clonehighlight = Instance.new("Highlight")
+        clonehighlight.Parent = got
+        clonehighlight:Clone()
+    end
+end
